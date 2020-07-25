@@ -1,0 +1,33 @@
+table.diamondsweeper-board {
+  width: 100%;
+}
+table.diamondsweeper-board td {
+  padding: 0;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.messages {
+  margin-bottom: 10px;
+}
+
+.cell {
+  height: 75px;
+  min-width: 75px;
+  background-size: 75px 75px;
+}
+.cell.diamond {
+  background-image: url(8b2762f0b8b9774309ee45e79e90bfb4.png);
+  background-repeat: no-repeat;
+}
+.cell.arrow {
+  background-image: url(ae0ebb720a894bd9c010469df703c107.png);
+  background-repeat: no-repeat;
+}
+.cell.unknown {
+  background-image: url(6b1e4013862f53ef113fdd5f6aba4848.png);
+  background-repeat: no-repeat;
+}
+.cell.highlight {
+  background-color: #e0e0e0;
+}
